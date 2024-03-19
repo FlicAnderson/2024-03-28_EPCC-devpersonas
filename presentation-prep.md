@@ -5,6 +5,18 @@
 ![image (1)](https://github.com/FlicAnderson/2024-03-28_EPCC-devpersonas/assets/5812129/09befd84-399a-4e35-85f2-d354a6f21bf4)
 My poster  
 
+
+
+
+
+
+
+
+
+
+
+
+
 ## Poster: Do Research Software Developer Personas Exist? Are you an RS-10x? 
 
 ### Key point I want to get across:  
