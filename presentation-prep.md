@@ -1,56 +1,33 @@
 # 3min Lightning Talk Prep 
 
-## Slide Design: SWIPE 
-
-Style:  
-  - visually simple, without too much clutter
-  - sans-serif font, > 24pt
-  - bold for key points and takeaways
-  - no animations / video clips / sound    
-
-Words:  
-  - 5-7 lines of text
-  - 5-7 words per line only
-  - ONE IDEA PER SLIDE - signpost ideas, don't use them as notes for my talk   
-  - (optional: bitly for the slide? Probably not unless it's a link to the poster in this case)
-  - any refs should be readable and at the bottom of the text; no more than a couple per slide or you've got too many ideas in the slide
-  - CAPS are read SLOWER than lower case text; also, don't be shouty!  
-
-Images:  
-  - Graphs need to be presented SLOWLY, and explained SLOWLY and carefully; the audience hasn't seen it before, the presenter knows it inside out. Give them time.
-  - You need to give enough time for audience to take in the content of the plot: explain axes, relationships, (obvs outliers), takeaway.
-  - graphs should be uncluttered and as simple as possible
-  - ONE per slide tbh
-  - use images / photos to break up presentations if there's lots of text/data/dry content and make things relatable.
-  - maintain same style of images throughout.  
-
-Palette:  
-  - aiming to follow EPCC branding largely (white background, dandelion highlights, epcc navy text/lines, + university red for emphasis/titles.)
-  - think about accessibility of content for colour-blindness/screen reading etc  
-
-Extras:  
-  - could bring in bulletpoints slide by slide to emphasise each point if there are several and to avoid overloading audience with sudden wall of text
-
-
-
 ## Talk Prep:  
+
+![image (1)](https://github.com/FlicAnderson/2024-03-28_EPCC-devpersonas/assets/5812129/09befd84-399a-4e35-85f2-d354a6f21bf4)
+My poster  
+
+## Poster: Do Research Software Developer Personas Exist? Are you an RS-10x? 
 
 ### Key point I want to get across:  
 (come see my poster; my poster is interesting; you will benefit from coming to see my poster)  
 
-There are different ways of assigning tasks
+KEY POINT KEY POINT KEY POINT
  
 
-### Story of my talk:   
+### Me, and My Credentials:   
 
-Introduce myself / why am I entitled to talk about this? Give my credentials    
+I'm Felicity Anderson, and I've been using and writing code for my research for over 10 years! 
+I've been a botanist, a bioinformatician, and now I'm a PhD researcher. 
+And I'm researching Research Software, how people write it, and whether we can make it them more effective at doing that.  
+
 
 #### Background / why is this relevant to you?:   
+
 Research software research is a recent field  
 But almost everyone in research uses or writes research software  
 Every researcher I speak to agrees that academic code is usually terrible...  
 So why is it so bad? How can we fix it?   
 To fix something, you need to know what's going wrong: that's research software research.   
+
 
 #### Methods: My research goals: 
 
@@ -65,13 +42,15 @@ For my purposes, looking for groupings of ways people interact with their RS cod
 Why not talk to them? 
 People don't always tell you what they're doing accurately - survey data is intensive to obtain, and a lot of these ideas are complex!
 
+
 #### Methods: my actual methods:   
 
 What did I do instead? 
 Mining data from research software repositories.  
 Harder to unpick the 'why' but gives a good idea of the 'what'/'how'. 
 
-Selected a group of 10 large repos: developers > 6 (average is much smaller but for proof of concept work I've started with larger repos more likely to show clear differences between groups of devs).
+Selected a group of 10 large repos: developers > 6 
+(The average number of developers is much smaller but for my proof of concept work I've started with larger repos more likely to show clear differences in the data).
 
 Grabbed data about how developers use the features in the repository and how much code they add/change to it (in 'commits').  
 
@@ -117,61 +96,29 @@ Average commits per developer by category:
 
 So it looks like there's some real differences going on amongst our developers - dare I say, are groupings starting to form? 
 
-
 A to our Q: the developers assigned to 'both' types of feature are much more active within the codebase! This suggests a positive correlation between the two measures.  
-
-But is this really the case?  
+Is this really the case?  
+And might this be the basis of developing 'research development personas' to categorise development practices in research software repositories??
 
 
 #### Call to Action:
-Come to my poster to find out whether this is really the case, and what I plan to do to investigate further!
+Come to my poster to find out the answers to those questions, and what I plan to do to investigate further!
 
 Thanks for your attention! 
 (give my name and poster location) 
 
 
-
-#### Concepts I need to make sure I explain:  
-  - RS
-  - repositories s.a. github
-  - issue tickets - these are items where 
-  - pull requests - these are branches of code which a developer wants to be added to the codebase 
-  - assignment categories
-  - commits
-  - 10x programmer concept  
-  - 'developer personas'    
- 
-
-### Pause points in my talk:   
-  - context  
-  - key graph 
-  - takeaways   
+   
 
 ### Length: aim to finish at 2min 50sec  
 
 
-
-
-
-
-
-## Stuff NOT to include: 
-
-#### Next Steps  
-
- - clustering developers into 'personas' by their practices (e.g. those assigned more 'responsibility' with more PRs + those who are more active in terms of commits == 'superstar developers' vs devs without assigned items and who have low commit numbers?)  
- - combine with code analysis tools to look at correlations with various 'code metrics' - do 'best practices' result in 'high quality code'?
- - compare to 'citations' and 'users (contributors not core-devteam)' of the software and 'usage (via forks, stars, watching etc)' with repo practices to check correlation: do 'best practices' result in 'widely used' code?  
- - do projects with specific persona types of developers onboard create 'more successful' projects than others? (considering metrics such as usage, citations, code quality)  
- - combine developer survey data + repo data to combine 'what' and 'why'!  
-
-'Threads' to add to the clustering:  
-  - external user vs developer?
-  - mentions in issue tickets
-  - commit frequency
-  - average code files touched per commit
-  - average time to close issue ticket / PR
-
-
-Future work: users vs devrs/users; 
-
+#### Concepts I need to make sure I explain:  
+  - RS
+  - repositories s.a. github
+  - issue tickets - these are pages where development tasks can be discussed and prioritised   
+  - pull requests - these are branches of code which a developer wants to be added to the existing codebase  
+  - assignment categories
+  - commits
+  - 10x programmer concept  
+  - 'developer personas'
