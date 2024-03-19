@@ -72,12 +72,13 @@ Gathered repositories from Zenodo DOI minting service db to get 'repos
 #### Results:  
 Key Graph! (or similar graph showing an intriguing result...)  
 
+Assignment distribution: 
+![image](https://github.com/FlicAnderson/2024-03-28_EPCC-devpersonas/assets/5812129/90fc6353-a572-4bc8-b7b3-65591721152a)
+
+Average commits per developer by category: 
+![image](https://github.com/FlicAnderson/2024-03-28_EPCC-devpersonas/assets/5812129/bec2b4ff-bfcd-4b50-94c1-8ce280cde039)
 
 
-context/demographics  
-assignment practices  
-commit contrubutions  
-developer interaction types / --> personas?
 
 
 #### Conclusions
