@@ -1,6 +1,6 @@
 # 3min Lightning Talk Prep 
 
-### Slide Design: SWIPE 
+## Slide Design: SWIPE 
 
 Style:  
   - visually simple, without too much clutter
@@ -30,4 +30,79 @@ Palette:
 
 Extras:  
   - could bring in bulletpoints slide by slide to emphasise each point if there are several and to avoid overloading audience with sudden wall of text
+
+
+
+## Talk Prep:  
+
+### Key point I want to get across:  
+(come see my poster; my poster is interesting; you will benefit from coming to see my poster)  
+
+### Story of my talk:   
+
+Introduce myself / why am I entitled to talk about this? Give my credentials    
+
+#### Background / why is this relevant to you?:   
+Research software research is a recent field  
+But almost everyone in research uses or writes research software  
+Every researcher I speak to agrees that academic code is usually terrible...  
+So why is it so bad? How can we fix it?   
+To fix something, you need to know what's going wrong: that's research software research.   
+
+#### Methods: My research goals: 
+
+What are the common RS devt practices? 
+(Do they apply to all projects? All developers? All fields of research?)
+
+Focussing on people first - looking at the developers. 
+To be able to communicate about something and discuss it, you need to be able to name key concepts and describe it.  
+For my purposes, looking for groupings of ways people interact with their RS codebases
+
+Why not talk to them? 
+People don't always tell you what they're doing accurately - survey data is intensive to obtain, and a lot of these ideas are complex!
+
+#### Methods: my actual methods:   
+
+What did I do instead? 
+Mining data from research software repositories.  
+Harder to unpick the 'why' but gives a good idea of the 'what'/'how'. 
+
+Gathered repositories from Zenodo DOI minting service db to get 'repos 
+
+#### Results:  
+Key Graph! (or similar graph showing an intriguing result...)  
+context/demographics  
+assignment practices  
+commit contrubutions  
+developer interaction types / --> personas?
+
+
+#### Conclusions
+Future work: 
+Combine developer survey data + repo data to combine 'what' and 'why'!  
+
+
+#### Concepts I need to make sure I explain:  
+  - RS
+  - repositories s.a. github
+  - issue tickets
+  - pull requests
+  - assignment categories
+  - commits
+  - 10x programmer
+  - 'developer personas'    
+ 
+
+
+
+
+### Pause points in my talk:   
+  - context  
+  - key graph 
+  - takeaways   
+
+### Length: aim to finish at 2min 50sec  
+
+
+
 
