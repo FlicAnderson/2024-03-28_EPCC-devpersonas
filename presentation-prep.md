@@ -38,6 +38,9 @@ Extras:
 ### Key point I want to get across:  
 (come see my poster; my poster is interesting; you will benefit from coming to see my poster)  
 
+There are different ways of assigning tasks
+ 
+
 ### Story of my talk:   
 
 Introduce myself / why am I entitled to talk about this? Give my credentials    
@@ -51,6 +54,7 @@ To fix something, you need to know what's going wrong: that's research software 
 
 #### Methods: My research goals: 
 
+Describing the landscape  
 What are the common RS devt practices? 
 (Do they apply to all projects? All developers? All fields of research?)
 
@@ -71,40 +75,60 @@ Selected a group of 10 large repos: developers > 6 (average is much smaller but 
 
 Grabbed data about how developers use the features in the repository and how much code they add/change to it (in 'commits').  
 
-GitHub allows users to create items called 'issue tickets' and 'pull requests'.  
+GitHub allows users to create items called 'issue tickets' and 'pull requests'. 
 
-For larger RS repositories using these features, I looked at whether the items were assigned to a particular developer.
+Issue tickets are essentially discussion pages centred around a particular feature, task or bug within the code. 
+They don't actually change anything in the code, but they can help organise and prioritise development tasks.  
 
+Pull requests are a type of item which relate to chunks of code that a developer might want to add to the main codebase. 
+These tend to be created to add new features, or fix problems, and can sometimes relate to specific existing issue tickets. 
+Because pull requests change the codebase, they are potentially risky and could break things as well as fixing things... 
 
+These features can give us a tentative proxy measure of 'developer responsibility' if we look at whether one or both types (or neither!) of these items were assigned to each developer.
 
-(Don't include details: Gathered repositories from a DOI minting service db to get 'RS repos'
-Then obtained data from the Github API etc) 
+Assignment doesn't equal activity, but that's where we can bring in 'commit' data as a tentative proxy for 'activity' within the codebase.  
+
+Q: How do these measures of responsibility and activity interact? Are the developers assigned both types of item any different to developers in other categories? Can we identify any 'superstar' developers using these measures?   
+
+Assignment can be categorised very basically as adding someone's name to an item (perhaps to ask them to lead on this, do the work, or to let them know about this item): 
+
+![29a77179-35df-454c-b6af-4cb2ba04e281](https://github.com/FlicAnderson/2024-03-28_EPCC-devpersonas/assets/5812129/3fff5024-5c93-45d7-8dcc-69b9dd20451d)
+
+We can place each developer into one of 4 categories. 
+
 
 #### Results:  
-Not Key Graph! 
 
+Amongst these 10 larger repositories I'm looking at, they all assigned at least some of their issues and pull requests.  
 
 Assignment distribution: 
 ![image](https://github.com/FlicAnderson/2024-03-28_EPCC-devpersonas/assets/5812129/90fc6353-a572-4bc8-b7b3-65591721152a)
 
+- most developers don't get assigned any items
+- of those who are assigned something, it's most likely to be just issue tickets (less 'responsibility' than PRs), with about a 5th assigned to 'both' issue tickets and PRs, with only a few folks assigned to only pull requests and not issue tickets (most pull requests tend to be related to issue tickets, which might explain why this is rarer?)
+- not everyone is assigned the same: this is interesting because presumably there's some underlying difference which explains why?  
+
 Average commits per developer by category: 
 ![image](https://github.com/FlicAnderson/2024-03-28_EPCC-devpersonas/assets/5812129/bec2b4ff-bfcd-4b50-94c1-8ce280cde039)
 
-#### Discussion/Eval  
+ - looking at the averages of commits within each of these categories, we can see that the mean number of commits for developers who are assigned both types of item is MUCH higher than that of any of the other categories - even though the majority of our developers don't get assigned to anything!
+ - the 'both' category developers also out-commit their single-item-type colleagues, so we know it's nothing specially related to assignment to one of these types of item (e.g. being assigned pull requests doesn't automatically make you a committing legend for example).
+ - the standard error lines on the bars show us that the standard deviations of the samples here are really different, even accounting for the sample sizes.
+
+So it looks like there's some real differences going on amongst our developers - dare I say, are groupings starting to form? 
 
 
-'Threads' to add to the clustering:  
-  - external user vs developer?
-  - mentions in issue tickets
-  - commit frequency
-  - average code files touched per commit
-  - average time to close issue ticket / PR
+A to our Q: the developers assigned to 'both' types of feature are much more active within the codebase! This suggests a positive correlation between the two measures.  
+
+But is this really the case?  
 
 
+#### Call to Action:
+Come to my poster to find out whether this is really the case, and what I plan to do to investigate further!
 
-#### Conclusions
-Future work: users vs devrs/users; 
-Combine developer survey data + repo data to combine 'what' and 'why'!  
+Thanks for your attention! 
+(give my name and poster location) 
+
 
 
 #### Concepts I need to make sure I explain:  
@@ -118,9 +142,6 @@ Combine developer survey data + repo data to combine 'what' and 'why'!
   - 'developer personas'    
  
 
-
-
-
 ### Pause points in my talk:   
   - context  
   - key graph 
@@ -130,4 +151,27 @@ Combine developer survey data + repo data to combine 'what' and 'why'!
 
 
 
+
+
+
+
+## Stuff NOT to include: 
+
+#### Next Steps  
+
+ - clustering developers into 'personas' by their practices (e.g. those assigned more 'responsibility' with more PRs + those who are more active in terms of commits == 'superstar developers' vs devs without assigned items and who have low commit numbers?)  
+ - combine with code analysis tools to look at correlations with various 'code metrics' - do 'best practices' result in 'high quality code'?
+ - compare to 'citations' and 'users (contributors not core-devteam)' of the software and 'usage (via forks, stars, watching etc)' with repo practices to check correlation: do 'best practices' result in 'widely used' code?  
+ - do projects with specific persona types of developers onboard create 'more successful' projects than others? (considering metrics such as usage, citations, code quality)  
+ - combine developer survey data + repo data to combine 'what' and 'why'!  
+
+'Threads' to add to the clustering:  
+  - external user vs developer?
+  - mentions in issue tickets
+  - commit frequency
+  - average code files touched per commit
+  - average time to close issue ticket / PR
+
+
+Future work: users vs devrs/users; 
 
