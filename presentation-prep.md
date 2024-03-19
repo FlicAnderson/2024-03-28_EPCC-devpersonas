@@ -67,10 +67,22 @@ What did I do instead?
 Mining data from research software repositories.  
 Harder to unpick the 'why' but gives a good idea of the 'what'/'how'. 
 
-Gathered repositories from Zenodo DOI minting service db to get 'repos 
+Selected a group of 10 large repos: developers > 6 (average is much smaller but for proof of concept work I've started with larger repos more likely to show clear differences between groups of devs).
+
+Grabbed data about how developers use the features in the repository and how much code they add/change to it (in 'commits').  
+
+GitHub allows users to create items called 'issue tickets' and 'pull requests'.  
+
+For larger RS repositories using these features, I looked at whether the items were assigned to a particular developer.
+
+
+
+(Don't include details: Gathered repositories from a DOI minting service db to get 'RS repos'
+Then obtained data from the Github API etc) 
 
 #### Results:  
-Key Graph! (or similar graph showing an intriguing result...)  
+Not Key Graph! 
+
 
 Assignment distribution: 
 ![image](https://github.com/FlicAnderson/2024-03-28_EPCC-devpersonas/assets/5812129/90fc6353-a572-4bc8-b7b3-65591721152a)
@@ -78,22 +90,31 @@ Assignment distribution:
 Average commits per developer by category: 
 ![image](https://github.com/FlicAnderson/2024-03-28_EPCC-devpersonas/assets/5812129/bec2b4ff-bfcd-4b50-94c1-8ce280cde039)
 
+#### Discussion/Eval  
+
+
+'Threads' to add to the clustering:  
+  - external user vs developer?
+  - mentions in issue tickets
+  - commit frequency
+  - average code files touched per commit
+  - average time to close issue ticket / PR
 
 
 
 #### Conclusions
-Future work: 
+Future work: users vs devrs/users; 
 Combine developer survey data + repo data to combine 'what' and 'why'!  
 
 
 #### Concepts I need to make sure I explain:  
   - RS
   - repositories s.a. github
-  - issue tickets
-  - pull requests
+  - issue tickets - these are items where 
+  - pull requests - these are branches of code which a developer wants to be added to the codebase 
   - assignment categories
   - commits
-  - 10x programmer
+  - 10x programmer concept  
   - 'developer personas'    
  
 
