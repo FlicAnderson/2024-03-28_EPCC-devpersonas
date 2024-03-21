@@ -22,7 +22,8 @@ My poster
 
 ## Lightning Talk Slide
 
-![epccposter_SLIDE 2024-03-21-1](https://github.com/FlicAnderson/2024-03-28_EPCC-devpersonas/assets/5812129/804af553-e3fc-4cb2-a08e-af00b965f0d6)
+![epccposter_SLIDE 2024-03-21_1900-1](https://github.com/FlicAnderson/2024-03-28_EPCC-devpersonas/assets/5812129/15e4e000-929f-4d31-ac6b-f57b9353e951)
+
 
 
 ### Key point I want to get across:  
