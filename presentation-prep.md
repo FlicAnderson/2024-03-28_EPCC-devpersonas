@@ -19,10 +19,16 @@ My poster
 
 ## Poster: Do Research Software Developer Personas Exist? Are you an RS-10x? 
 
+
+## Lightning Talk Slide
+
+![epccposter_SLIDE 2024-03-21-1](https://github.com/FlicAnderson/2024-03-28_EPCC-devpersonas/assets/5812129/804af553-e3fc-4cb2-a08e-af00b965f0d6)
+
+
 ### Key point I want to get across:  
 (come see my poster; my poster is interesting; you will benefit from coming to see my poster)  
 
-KEY POINT KEY POINT KEY POINT
+Using assignment and contributions data I've found differences in assignment and commits for RS developers which correspond to a potential clsuter...
  
 
 ### Me, and My Credentials:   
