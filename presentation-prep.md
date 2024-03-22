@@ -23,6 +23,8 @@ Often **hard to identify and prioritise**  .  .  .  what should be doing differe
 Imagine if we could  .  .  .  identify the **best development practices** for YOU  .  .  .  based on your **real-world RS data**: .  .  .   **what to change**  .  .  .   to **become 10x**
 
 
+.
+
 
 ### WHY:
 
@@ -31,6 +33,7 @@ So I want to understand  .  .  .  **how** other people develop RS .  .  .  can w
 Having names  .  .  .   concepts you want to explore  .  .  .  that's where **developer personas** come in!
 
 
+.
 
 ### WHAT: 
 
@@ -42,6 +45,7 @@ Looking for **clusters of practice**  .  .  .  distinct groups of **interaction*
 Starting  .  .  .  **find 'superstar developers'**  .  .  .   in **10 LARGER repos**  .  .  .  with **DOIs** on Zenodo .  .  .  not specific research fields  .  .  .  mixed.        
 
 
+.
 
 
 ### HOW:
@@ -73,6 +77,8 @@ There are  .  .  . some **known drawbacks and limitations** .  .  . to these met
 Can describe these  .  .  .  at my poster. 
 
 
+.
+
 
 ### NEXT STEPS 
 
@@ -85,6 +91,8 @@ Plan to  .  .  . **add more 'properties'**  .  .  . help **separate and describe
 
 For example by **linking them**  .  .  . to metrics such as **'software quality'**  .  .  .  exploring how **team composition** might affect **usage, popularity or citation**  
 
+
+.
 
 
 ### CONCLUSION: 
