@@ -13,11 +13,11 @@
 
 
 ### Key point I want to get across:  
-(come see my poster; my poster is interesting; you will benefit from coming to see my poster)  
-
-Using assignment and contributions data I've found differences in assignment and commits for RS developers which correspond to a potential cluster of 'superstar' developers with increased impact compared to other developers in their project team... 
-
-This could be the foundation of a developer persona.  
+> (come see my poster; my poster is interesting; you will benefit from coming to see my poster)  
+> 
+> Using assignment and contributions data I've found differences in assignment and commits for RS developers which correspond to a potential cluster of 'superstar' developers with increased impact compared to other developers in their project team... 
+> 
+> This could be the foundation of a developer persona. 
  
 
 ### OPENING:   
