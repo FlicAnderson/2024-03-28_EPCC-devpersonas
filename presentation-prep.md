@@ -8,7 +8,7 @@
 
 Heard the term **'10X developer'?**
 
-**Software engineering** concept: .  .  .  describes a **mythical** person .  .  . **10 times as effective** than rest of dev team...  
+**Software engineering** concept: .  .  .  describes a **mythical** person .  .  . **10 times as effective**  .  .  .  as rest of dev team...  
 
 Essentially a **'superstar developer'**. 
 
@@ -22,18 +22,11 @@ Often **hard to identify and prioritise**  .  .  .  what should be doing differe
 
 Imagine if we could  .  .  .  identify the **best development practices** for YOU  .  .  .  based on your **real-world RS data**: .  .  .   **what to change**  .  .  .   to **become 10x**
 
-
-.
-
-
-### WHY:
-
-So I want to understand  .  .  .  **how** other people develop RS .  .  .  can we make them **more effective**  
-
-Having names  .  .  .   concepts you want to explore  .  .  .  that's where **developer personas** come in!
+That's where **developer personas** come in!
 
 
 .
+
 
 ### WHAT: 
 
@@ -42,7 +35,7 @@ Pilot experiment  .  .  .  **mining REST API** data .  .  .  about features on *
 
 Looking for **clusters of practice**  .  .  .  distinct groups of **interaction**  .  .  .  between developers and repos.  
 
-Starting  .  .  .  **find 'superstar developers'**  .  .  .   in **10 LARGER repos**  .  .  .  with **DOIs** on Zenodo .  .  .  not specific research fields  .  .  .  mixed.        
+Starting  .  .  .  **find 'superstar developers'**  .  .  .   in **10 LARGER repos**  .  .  .  with **DOIs** on Zenodo .  .  .  various research fields 
 
 
 .
@@ -51,9 +44,7 @@ Starting  .  .  .  **find 'superstar developers'**  .  .  .   in **10 LARGER rep
 ### HOW:
   
 
-Using   .  .  .  **how many** developers  .  .  .  **assigned**   .  .  .  **issue tickets and pull requests**  .  .  .   within these repos. 
-
-Happy to explain  .  .  .  at my poster 
+Using   .  .  .  **how** developers  .  .  .  **assigned**   .  .  .  **issue tickets and pull requests**  .  .  .   within these repos. 
 
 
 Found .  .  .  amongst repos  .  .  .  which assign at least **some**   .  .  .  issue tickets & PRs
@@ -67,14 +58,12 @@ Found .  .  .  amongst repos  .  .  .  which assign at least **some**   .  .  . 
 
 One group  .  .  .(green bar, assigned 'both')  .  .  .   makes up **minority** of developers   .  .  .  but **majority** of commits
 
-Suggests  .  .  .  **interaction**   .  .  .  we can **start to group**  .  .  .  these developers...  
-
-Could this be  .  .  . foundation of  .  .  .  **'superstar' persona**  .  .  . - **our RS-10Xs?** 
+Could this **grouping** be  .  .  . foundation of  .  .  .  **'superstar' persona**  .  .  . - **our RS-10Xs?** 
 
 
 There are  .  .  . some **known drawbacks and limitations** .  .  . to these metrics; 
 
-Can describe these  .  .  .  at my poster. 
+Can describe  .  .  .  at my poster. 
 
 
 .
@@ -82,14 +71,14 @@ Can describe these  .  .  .  at my poster.
 
 ### NEXT STEPS 
 
-**Identifying and labelling** .  .  .  personas .  .  . from the data. 
+**Once I've Identified and labeled** .  .  .  personas .  .  . from the data 
 
-Plan to  .  .  . **add more 'properties'**  .  .  . help **separate and describe** these.   
+I plan to  .  .  . **add more 'properties'**  .  .  . help **separate and describe** them.   
 
  
-**After describing** personas  .  .  .  **test** whether they can **predict**  .  .  . **resulting software effectiveness**
+**After describing** personas  .  .  .  I'll **test** whether they can **predict**  .  .  . **resulting software effectiveness**
 
-For example by **linking them**  .  .  . to metrics such as **'software quality'**  .  .  .  exploring how **team composition** might affect **usage, popularity or citation**  
+E.g. **linking them**  .  .  . to metrics such as **'software quality'**  .  .  .  exploring how **team composition** might affect **usage, popularity or citations**  
 
 
 .
