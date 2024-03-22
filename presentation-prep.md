@@ -28,11 +28,16 @@ I'm Felicity Anderson, and I've been using and writing code for my research for 
 I am NOT a 10x developer.   
 I have written a lot of bad code in the past for my research, and what I've noticed is that everyone else seems to have done the same...
 
+
 ### WHY:
 
 As a result, I want to understand more about how other people develop RS and whether we can make them more effective at doing it.  
 
 To understand something and talk about it, it helps to have names for the concepts you want to explore - that's where developer personas come in!
+
+Who here writes or has written software for research?  Hands up? 
+Hopefully my poster should be relevant to most of you then! :)  
+
 
 ### WHAT: 
 
@@ -41,6 +46,7 @@ My pilot experiment invovles exploring data from features on github repositories
 I'm looking for clusters of practice within the data - distinct groups of interaction between developers and repos.  
 
 In this case, I'm starting by trying to find 'superstar developers'.  
+
 
 ### HOW:
 
@@ -57,6 +63,7 @@ What I've found in my initial investigation is that amongst repos which DO assig
 
 So we have one group which makes up a minority of developers, but the majority of commits...  This suggests there might be some kind of interaction here and we can start to group these developers...  
 This could be the foundation of a 'superstar' persona - our RS-10Xs? 
+
 
 ### WHAT IF?   
 
@@ -89,35 +96,5 @@ Please come talk to me at my poster to let me know what YOU think makes up a sup
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
-
 ### Length: aim to finish at 2min 50sec  
 
-
-#### Concepts I need to make sure I explain:  
-  - RS
-  - repositories s.a. github
-  - issue tickets - these are pages where development tasks can be discussed and prioritised   
-  - pull requests - these are branches of code which a developer wants to be added to the existing codebase  
-  - assignment categories
-  - commits
-  - 10x programmer concept  
-  - 'developer personas'
