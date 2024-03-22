@@ -20,7 +20,8 @@ Have any of you heard of the term '10X developer' before? It's a software engine
 
 I'm Felicity Anderson, and I've been using and writing code for my research for over 10 years!  
 I am NOT a 10x developer.   
-I have written a lot of bad code in the past for my research, and what I've noticed is that everyone else seems to have done the same...
+I have written a lot of bad code in the past for my research, and what I've noticed is that everyone else seems to have done the same... 
+But it's often hard to identify and prioritise exactly what you should be doing - especially if you're self-taught!  
 
 
 ### WHY:
