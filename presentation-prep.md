@@ -12,6 +12,7 @@ Heard the term **'10X developer'?**
 
 Essentially a **'superstar developer'**. 
 
+.
 
 **I'm Flic Anderson** .  .  . using & writing code for my research  .  .  .  **over 10 years!**  
 
@@ -19,6 +20,7 @@ I **do NOT FEEL like a 10x** developer.
 
 Often **hard to identify and prioritise**  .  .  .  what should be doing differently 
 
+.
 
 Imagine if we could  .  .  .  identify the **best development practices** for YOU  .  .  .  based on your **real-world RS data**: .  .  .   **what to change**  .  .  .   to **become 10x**
 
@@ -27,16 +29,21 @@ That's where **developer personas** come in!
 
 .
 
+.
+
 
 ### WHAT: 
 
 Pilot experiment  .  .  .  **mining REST API** data .  .  .  about features on **github repositories**  .  .  . 
 
+.
 
 Looking for **clusters of practice**  .  .  .  distinct groups of **interaction**  .  .  .  between developers and repos.  
 
 Starting  .  .  .  **find 'superstar developers'**  .  .  .   in **10 LARGER repos**  .  .  .  with **DOIs** on Zenodo .  .  .  various research fields 
 
+
+.
 
 .
 
@@ -46,6 +53,7 @@ Starting  .  .  .  **find 'superstar developers'**  .  .  .   in **10 LARGER rep
 
 Using   .  .  .  **how** developers  .  .  .  **assigned**   .  .  .  **issue tickets and pull requests**  .  .  .   within these repos. 
 
+.
 
 Found .  .  .  amongst repos  .  .  .  which assign at least **some**   .  .  .  issue tickets & PRs
   
@@ -55,15 +63,20 @@ Found .  .  .  amongst repos  .  .  .  which assign at least **some**   .  .  . 
   
   - ~23% remaining developers  .  .  .  1+ **EITHER an IT OR a PR**  .  .  .  but average contributions   .  .  .  still under 50 commits
 
+.
 
 One group  .  .  .(green bar, assigned 'both')  .  .  .   makes up **minority** of developers   .  .  .  but **majority** of commits
 
 Could this **grouping** be  .  .  . foundation of  .  .  .  **'superstar' persona**  .  .  . - **our RS-10Xs?** 
 
+.
 
 There are  .  .  . some **known drawbacks and limitations** .  .  . to these metrics; 
 
 Can describe  .  .  .  at my poster. 
+
+
+.
 
 
 .
@@ -75,10 +88,14 @@ Can describe  .  .  .  at my poster.
 
 I plan to  .  .  . **add more 'properties'**  .  .  . help **separate and describe** them.   
 
+.
  
 **After describing** personas  .  .  .  I'll **test** whether they can **predict**  .  .  . **resulting software effectiveness**
 
 E.g. **linking them**  .  .  . to metrics such as **'software quality'**  .  .  .  exploring how **team composition** might affect **usage, popularity or citations**  
+
+
+.
 
 
 .
@@ -90,6 +107,7 @@ Can .  .  .  **research software developer personas** .  .  .  help create  .  .
 
 Can they identify .  .  .  what practices would help  .  .  . **make you RS-10X?** 
 
+.
 
  **Come to my poster**.  .  . let me know  .  .  . what YOU think .  .  .  makes a superstar RS developer! 
 
