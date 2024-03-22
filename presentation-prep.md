@@ -2,22 +2,8 @@
 
 ## Talk Prep:  
 
-![image (1)](https://github.com/FlicAnderson/2024-03-28_EPCC-devpersonas/assets/5812129/09befd84-399a-4e35-85f2-d354a6f21bf4)
-My poster  
 
-
-
-
-
-
-
-
-
-
-
-
-
-## Poster: Do Research Software Developer Personas Exist? Are you an RS-10x? 
+## Poster: Identifying Research Software Developer Personas Could Create Better RS Developers. Are YOU an RS-10x? 
 
 
 ## Lightning Talk Slide
@@ -29,102 +15,77 @@ My poster
 ### Key point I want to get across:  
 (come see my poster; my poster is interesting; you will benefit from coming to see my poster)  
 
-Using assignment and contributions data I've found differences in assignment and commits for RS developers which correspond to a potential clsuter...
+Using assignment and contributions data I've found differences in assignment and commits for RS developers which correspond to a potential cluster of 'superstar' developers with increased impact compared to other developers in their project team... 
+
+This could be the foundation of a developer persona.  
  
 
-### Me, and My Credentials:   
+### OPENING:   
 
-I'm Felicity Anderson, and I've been using and writing code for my research for over 10 years! 
-I've been a botanist, a bioinformatician, and now I'm a PhD researcher. 
-And I'm researching Research Software, how people write it, and whether we can make it them more effective at doing that.  
+Have any of you heard of the term '10X developer' before? It's a software engineering concept that describes a mythical person who is 10 times as effective than everyone else on the dev team...  It's another term for a 'superstar developer'.   
 
+I'm Felicity Anderson, and I've been using and writing code for my research for over 10 years!  
+I am NOT a 10x developer.   
+I have written a lot of bad code in the past for my research, and what I've noticed is that everyone else seems to have done the same...
 
-#### Background / why is this relevant to you?:   
+### WHY:
 
-Research software research is a recent field  
-But almost everyone in research uses or writes research software  
-Every researcher I speak to agrees that academic code is usually terrible...  
-So why is it so bad? How can we fix it?   
-To fix something, you need to know what's going wrong: that's research software research.   
+As a result, I want to understand more about how other people develop RS and whether we can make them more effective at doing it.  
 
+To understand something and talk about it, it helps to have names for the concepts you want to explore - that's where developer personas come in!
 
-#### Methods: My research goals: 
+### WHAT: 
 
-Describing the landscape  
-What are the common RS devt practices? 
-(Do they apply to all projects? All developers? All fields of research?)
+My pilot experiment invovles exploring data from features on github repositories for research software  
 
-Focussing on people first - looking at the developers. 
-To be able to communicate about something and discuss it, you need to be able to name key concepts and describe it.  
-For my purposes, looking for groupings of ways people interact with their RS codebases
+I'm looking for clusters of practice within the data - distinct groups of interaction between developers and repos.  
 
-Why not talk to them? 
-People don't always tell you what they're doing accurately - survey data is intensive to obtain, and a lot of these ideas are complex!
+In this case, I'm starting by trying to find 'superstar developers'.  
 
+### HOW:
 
-#### Methods: my actual methods:   
-
-What did I do instead? 
 Mining data from research software repositories.  
-Harder to unpick the 'why' but gives a good idea of the 'what'/'how'. 
+Harder to unpick the 'why' but gives some idea of the 'what'/'how'.  
 
-Selected a group of 10 large repos: developers > 6 
-(The average number of developers is much smaller but for my proof of concept work I've started with larger repos more likely to show clear differences in the data).
+Using data on how many developers get assigned to issue tickets and pull requests within these repos. 
+I'm happy to explain more about these features at my poster if you're not familiar with what those are.
 
-Grabbed data about how developers use the features in the repository and how much code they add/change to it (in 'commits').  
+What I've found in my initial investigation is that amongst repos which DO assign at least some of their issue tickets & PRs to developers:  
+  - ~57% of devs are NOT assigned to *either* category, but in terms of mean number of commits to the repos, their average is only around 30 commits. This is the RED bar. 
+  - under 20% of devs are assigned to at least one IT *AND* PR, but actually their average number of commits is over 350! This is the GREEN bar. 
+  (the ~23% of remaining developers are assigned to one or more of EITHER an IT OR a PR; but their average contributions are still under 50 commits too.) These are the Blue and Orange bars.  
 
-GitHub allows users to create items called 'issue tickets' and 'pull requests'. 
+So we have one group which makes up a minority of developers, but the majority of commits...  This suggests there might be some kind of interaction here and we can start to group these developers...  
+This could be the foundation of a 'superstar' persona - our RS-10Xs? 
 
-Issue tickets are essentially discussion pages centred around a particular feature, task or bug within the code. 
-They don't actually change anything in the code, but they can help organise and prioritise development tasks.  
+### WHAT IF?   
 
-Pull requests are a type of item which relate to chunks of code that a developer might want to add to the main codebase. 
-These tend to be created to add new features, or fix problems, and can sometimes relate to specific existing issue tickets. 
-Because pull requests change the codebase, they are potentially risky and could break things as well as fixing things... 
+For those of you using github, or repositories with similar 'development management' features like issue tickets and PRs: 
+  - Where do you think you'd fall in that data?
+  - Do you have responsibility for lots of items?
+  - Do you contribute a lot of activity to the repository? 
 
-These features can give us a tentative proxy measure of 'developer responsibility' if we look at whether one or both types (or neither!) of these items were assigned to each developer.
+Imagine if we could identify the best development practices for YOU, based on how you actually develop your real world projects?  
+Imagine if I could tell you what to change to become a superstar RS developer (if you aren't already!)...
 
-Assignment doesn't equal activity, but that's where we can bring in 'commit' data as a tentative proxy for 'activity' within the codebase.  
+The first steps to this are identifying and labelling 'clusters' of practice from the data. 
+I plan to add more 'properties' to help separate these clusters:  
+  - opening/closing behaviours with ITx & PRs
+  - looking at which types of files devs touch in their commits
+  - and more  
 
-Q: How do these measures of responsibility and activity interact? Are the developers assigned both types of item any different to developers in other categories? Can we identify any 'superstar' developers using these measures?   
-
-Assignment can be categorised very basically as adding someone's name to an item (perhaps to ask them to lead on this, do the work, or to let them know about this item): 
-
-![29a77179-35df-454c-b6af-4cb2ba04e281](https://github.com/FlicAnderson/2024-03-28_EPCC-devpersonas/assets/5812129/3fff5024-5c93-45d7-8dcc-69b9dd20451d)
-
-We can place each developer into one of 4 categories. 
-
-
-#### Results:  
-
-Amongst these 10 larger repositories I'm looking at, they all assigned at least some of their issues and pull requests.  
-
-Assignment distribution: 
-![image](https://github.com/FlicAnderson/2024-03-28_EPCC-devpersonas/assets/5812129/90fc6353-a572-4bc8-b7b3-65591721152a)
-
-- most developers don't get assigned any items
-- of those who are assigned something, it's most likely to be just issue tickets (less 'responsibility' than PRs), with about a 5th assigned to 'both' issue tickets and PRs, with only a few folks assigned to only pull requests and not issue tickets (most pull requests tend to be related to issue tickets, which might explain why this is rarer?)
-- not everyone is assigned the same: this is interesting because presumably there's some underlying difference which explains why?  
-
-Average commits per developer by category: 
-![image](https://github.com/FlicAnderson/2024-03-28_EPCC-devpersonas/assets/5812129/bec2b4ff-bfcd-4b50-94c1-8ce280cde039)
-
- - looking at the averages of commits within each of these categories, we can see that the mean number of commits for developers who are assigned both types of item is MUCH higher than that of any of the other categories - even though the majority of our developers don't get assigned to anything!
- - the 'both' category developers also out-commit their single-item-type colleagues, so we know it's nothing specially related to assignment to one of these types of item (e.g. being assigned pull requests doesn't automatically make you a committing legend for example).
- - the standard error lines on the bars show us that the standard deviations of the samples here are really different, even accounting for the sample sizes.
-
-So it looks like there's some real differences going on amongst our developers - dare I say, are groupings starting to form? 
-
-A to our Q: the developers assigned to 'both' types of feature are much more active within the codebase! This suggests a positive correlation between the two measures.  
-Is this really the case?  
-And might this be the basis of developing 'research development personas' to categorise development practices in research software repositories??
+Once I can identify and describe these personas, I want to try and link them to metrics for 'software quality' and effectiveness, and look at how team composition might affect those measures!  
 
 
-#### Call to Action:
-Come to my poster to find out the answers to those questions, and what I plan to do to investigate further!
+### CONCLUSION: 
 
-Thanks for your attention! 
-(give my name and poster location) 
+From the work I've done I can clearly see that there's some kind of interaction between assignment data and contribution data.  
+
+We've got the foundations of some groupings starting to emerge; 
+Adding more properties from the data and expanding my dataset will help ensure potential personas will be robust enough to form a basis to help find out what changes in practice every RS developer can make to become a superstar! 
+
+Please come talk to me at my poster to let me know what YOU think makes up a superstar RS developer! 
+
 
 
 
