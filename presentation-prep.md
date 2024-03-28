@@ -1,6 +1,7 @@
 ## Identifying Research Software Developer Personas Could Create Better RS Developers. Are YOU an RS-10x? 
 
-<img width="705" alt="image" src="https://github.com/FlicAnderson/2024-03-28_EPCC-devpersonas/assets/5812129/9bdd958d-e8d1-4b4d-8a4d-8066f8b37681">
+![image](https://github.com/FlicAnderson/2024-03-28_EPCC-devpersonas/assets/5812129/a522bb9a-7264-43f4-b30d-b302f585c67f)
+
 
 
 .
